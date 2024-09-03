@@ -43,7 +43,7 @@ public class Conversions
             double fahrenheit = keyboard.nextDouble();
             keyboard.nextLine();
             double celsius = (fahrenheit-32) * (5.0/9.0);
-            System.out.println(fahrenheit + "degrees fahrenheit is " + celsius + "degrees fahrenheit");
+            System.out.println(fahrenheit + " degrees fahrenheit is " + celsius + " degrees fahrenheit");
         }
         if (selection == 3)
         {
@@ -51,7 +51,7 @@ public class Conversions
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
             double meters = feet / 3.3;
-            System.out.println(feet + "feet is " + meters + "meters");
+            System.out.println(feet + " feet is " + meters + " meters");
         }
         if (selection == 4)
         {
@@ -59,7 +59,7 @@ public class Conversions
             double meters = keyboard.nextDouble();
             keyboard.nextLine();
             double feet = meters * 3.3;
-            System.out.println(meters + "meters is " + feet + "feet");  
+            System.out.println(meters + " meters is " + feet + " feet");  
         }
         if (selection == 5)
         {
@@ -67,7 +67,7 @@ public class Conversions
             double ounces = keyboard.nextDouble();
             keyboard.nextLine();
             double milliliters = ounces * 29.574;
-            System.out.println(ounces + "ounces is " + milliliters + "mililiters");  
+            System.out.println(ounces + " ounces is " + milliliters + " mililiters");  
         }        
         if (selection == 6)
         {
@@ -75,7 +75,7 @@ public class Conversions
             double mililiters = keyboard.nextDouble();
             keyboard.nextLine();
             double ounces = mililiters / 29.574;
-            System.out.println(mililiters + "mililiters is " + ounces + "ounces");  
+            System.out.println(mililiters + " mililiters is " + ounces + " ounces");  
         }
         if (selection == 7)
         {
@@ -83,7 +83,7 @@ public class Conversions
             double meters = keyboard.nextDouble();
             keyboard.nextLine();
             double kilometers = meters / 1000;
-            System.out.println(meters + "meters is " + kilometers + "kilometers");
+            System.out.println(meters + " meters is " + kilometers +  "kilometers");
         }
         if (selection == 8)
         {
@@ -91,7 +91,7 @@ public class Conversions
             double kilometers = keyboard.nextDouble();
             keyboard.nextLine();
             double meters = kilometers * 1000;
-            System.out.println(kilometers + "kilometers is " + meters + "meters");
+            System.out.println(kilometers + " kilometers is " + meters + " meters");
         }
         
         if (selection == 9)
@@ -100,7 +100,7 @@ public class Conversions
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
             double inches = feet * 12;
-            System.out.println(feet + "feet is " + inches + "inches");
+            System.out.println(feet + " feet is " + inches + " inches");
         }
         if (selection == 10)
         {
@@ -108,7 +108,7 @@ public class Conversions
             double inches = keyboard.nextDouble();
             keyboard.nextLine();
             double feet =  inches / 12;
-            System.out.println(inches + "inches is " + feet + "feet");
+            System.out.println(inches + " inches is " + feet + " feet");
         }
         if (selection == 11)
         {
@@ -116,7 +116,7 @@ public class Conversions
             double inches = keyboard.nextDouble();
             keyboard.nextLine();
             double centimeters = inches * 2.54;
-            System.out.println(inches + "inches is " + centimeters + "centimeters");
+            System.out.println(inches + " inches is " + centimeters + " centimeters");
         }
         if (selection == 12)
         {
@@ -124,6 +124,6 @@ public class Conversions
             double centimeters = keyboard.nextDouble();
             keyboard.nextLine();
             double inches = centimeters / 2.54;
-            System.out.println(centimeters + "centimeters is " + inches + "inches");
+            System.out.println(centimeters + " centimeters is " + inches + " inches");
         }
 }}
